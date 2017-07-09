@@ -18,6 +18,9 @@ html, body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.logo-img {
+  width: 2em;
+}
 .btn {
   border: 2px solid transparent;
   transition: border 0s, margin 250ms;
@@ -35,8 +38,8 @@ html, body {
 }
 .btn-soundcloud:hover {
   color: white;
-    -webkit-animation: heartbeat 1.2s ease-in-out infinite both;
-    animation: heartbeat 1.2s ease-in-out infinite both;
+    -webkit-animation: heartbeat 1.07s ease-in-out infinite both;
+    animation: heartbeat 1.07s ease-in-out infinite both;
 }
 
 .navbar {
