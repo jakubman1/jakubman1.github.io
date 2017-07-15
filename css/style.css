@@ -12,11 +12,12 @@ html, body {
   align-items: stretch;
   position: relative; }
 
-.center-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
+@media screen and (min-width: 35em) {
+  .center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); } }
 
 .logo-img {
   width: 2em; }
@@ -29,8 +30,8 @@ html, body {
   border: 2px solid rgba(0, 0, 0, 0.25); }
 
 .btn:active {
-  -webkit-animation: shrink 1s ease-in-out;
-  animation: heartbeat 1s ease-in-out; }
+  -webkit-animation: shrink 250ms ease-in-out;
+  animation: shrink 250ms ease-in-out; }
 
 .btn-soundcloud {
   background-color: #ff5500;
@@ -53,7 +54,7 @@ html, body {
     border: none; }
   .navbar .nav-item {
     padding: 0 1rem; }
-    @media (max-width: 34em) {
+    @media (max-width: 35em) {
       .navbar .nav-item {
         padding: 0; } }
     .navbar .nav-item .nav-link {
@@ -81,8 +82,8 @@ html, body {
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out; }
   to {
-    -webkit-transform: scale(0.99);
-    transform: scale(0.99); } }
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95); } }
 
 @-webkit-keyframes heartbeat {
   from {
